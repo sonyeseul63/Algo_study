@@ -4,6 +4,22 @@
 #### Python: Python 확장 설치하면 Run ▶️ 버튼 생김
 #### Java: "Extension Pack for Java" 설치하면 자동 빌드 + 실행 가능
 
+# 🤖 스터디 멤버 소개
+<table>
+ <tr>
+  <td align="center"><a href="https://github.com/sonyeseul63"><img src="https://avatars.githubusercontent.com/sonyeseul63" width="130px;" alt=""></a></td>
+  <td align="center"><a href="https://github.com/Hanminjoo72"><img src="https://avatars.githubusercontent.com/Hanminjoo72" width="130px;" alt=""></a></td>
+  </tr>
+  <tr>
+     <td align="center"><a href="https://github.com/sonyeseul63"><b>예슬</b></a></td>
+    <td align="center"><a href="https://github.com/Hanminjoo72"><b>민주</b></a></td>
+  </tr>
+  <tr> 
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
+        <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
+  </tr> 
+</table>
+
 # study-rules
 ## 1. 커밋 메시지 규칙 지키기
 | 플랫폼    | 커밋 메시지 예시                              |
