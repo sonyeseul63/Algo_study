@@ -30,7 +30,7 @@
 | LeetCode     | `LeetCode 2: Add Two Numbers (Python)` |
 | 문서 작성     | `docs: add/update/create [file name]`       |
 
-## 2. 주차별로 폴더 생성하여 문제별로 파일 생성 (md파일은 선택)
+## 2. 문제별로 파일 생성 (md파일은 선택)
 
 #### 알고리즘 문제 참고 사이트
 https://www.acmicpc.net/
