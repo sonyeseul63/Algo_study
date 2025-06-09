@@ -1,0 +1,6 @@
+A = input()
+B = input()
+print(int(A) * (int(B) % 10))
+print((int(A)* ((int(B) % 100) - (int(B) % 10))) // 10)
+print(int(A)* ((int(B) - (int(B) % 100))) // 100)
+print(int(A) * int(B))
