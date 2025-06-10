@@ -32,6 +32,8 @@
 
 ## 2. 문제별로 파일 생성 (md파일은 선택)
 
+## 3. 15일마다 검사
+
 #### 알고리즘 문제 참고 사이트
 https://www.acmicpc.net/
 https://solved.ac/class?class=1
