@@ -1,4 +1,4 @@
-# Algo_study
+# 📚 Algo_study
 ### 파일 실행 단축키
 #### md: Markdown Preview Enhanced 확장 설치 후 Ctrl + Shift + V 누르면 미리보기
 #### Python: Python 확장 설치하면 Run ▶️ 버튼 생김
@@ -20,7 +20,7 @@
   </tr> 
 </table>
 
-# study-rules
+# 📜 study-rules
 ## 1. 커밋 메시지 규칙 지키기
 | 플랫폼    | 커밋 메시지 예시                              |
 | ------ | -------------------------------------- |
@@ -32,9 +32,11 @@
 
 ## 2. 문제별로 파일 생성 (md파일은 선택)
 
-## 3. 15일마다 검사
+## 3. 매월 15일, 30일에 검사  
 
-#### 알고리즘 문제 참고 사이트
+<br> 
+
+#### 🌐 알고리즘 문제 참고 사이트
 https://www.acmicpc.net/
 https://solved.ac/class?class=1
 https://school.programmers.co.kr/
