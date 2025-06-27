@@ -38,6 +38,6 @@
 
 #### 🌐 알고리즘 문제 참고 사이트
 https://www.acmicpc.net/
-https://solved.ac/class?class=1
+c
 https://school.programmers.co.kr/
 https://leetcode.com/
