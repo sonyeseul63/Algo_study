@@ -3,10 +3,10 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] arg) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(system.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(system.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-                int max = -1;
+        int max = -1;
         int idx = 0;
         for (int i = 1; i <= 9; i++) {
             int n = Integer.parseInt(br.readLine());
