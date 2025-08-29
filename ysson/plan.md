@@ -7,7 +7,18 @@
 | 실수 줄이기 → 정답률 확보 | 컴파일 오류나 NPE 줄이기 위해 테스트 케이스 검증 철저히               |
 
 
-### 입출력 템플릿
+### 코드 템플릿
+- 자바 메인 클래스 템플릿:
+  ```java
+  import java.util.*;
+  public class Main {
+      public static void main(String[] args) throws IOException {
+          // 여기에 코드 작성
+      }
+  }
+  ```
+
+
 - `BufferedReader + StringTokenizer` 템플릿:  
   ```java
   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,10 +35,10 @@
   ```
 
 
-### 계획
+### solved 계획
 ```
   Class 1~2 빠르게 정리 (문법 리뷰 & 손 풀기)
   Class 3~4 
   Class 5~6, 유형 공부
-  Class 7 이상 + 기출 문제 (삼성, 카카오 등) 대비
+  Class 7 이상 + 기출 문제 
 ```
