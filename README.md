@@ -1,10 +1,11 @@
-# 📚 Algo_study
-### 파일 실행 단축키
+# < Algo_study >
+### 📜 파일 실행 단축키
 #### md: Markdown Preview Enhanced 확장 설치 후 Ctrl + Shift + V 누르면 미리보기
 #### Python: Python 확장 설치하면 Run ▶️ 버튼 생김
 #### Java: "Extension Pack for Java" 설치하면 자동 빌드 + 실행 가능
 
-# 🤖 스터디 멤버 소개
+# < 스터디 멤버 소개 >
+### 🤖 hello
 <table>
  <tr>
   <td align="center"><a href="https://github.com/sonyeseul63"><img src="https://avatars.githubusercontent.com/sonyeseul63" width="130px;" alt=""></a></td>
@@ -15,12 +16,12 @@
     <td align="center"><a href="https://github.com/Hanminjoo72"><b>민주</b></a></td>
   </tr>
   <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
         <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
   </tr> 
 </table>
 
-# 📜 study-rules
+# < study-rules >
 ## 1. 커밋 메시지 규칙 지키기
 | 플랫폼    | 커밋 메시지 예시                              |
 | ------ | -------------------------------------- |
@@ -32,7 +33,9 @@
 
 ## 2. 문제별로 파일 생성 (md파일은 선택)
 
-## 3. 매월 15일, 30일에 검사  
+## 3. 오답 정리, 개념 정리, 계획은 자유롭게
+
+## 4. 알고리즘 코드 리뷰도 좋을 듯!
 
 <br> 
 
