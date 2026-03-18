@@ -4,6 +4,9 @@
 #### Python: Python 확장 설치하면 Run ▶️ 버튼 생김
 #### Java: "Extension Pack for Java" 설치하면 자동 빌드 + 실행 가능
 
+### 📜 파일 구조
+#### ALGO_STUDY/이름/문제 사이트/번호/소스코드 파일
+
 # < 스터디 멤버 소개 >
 ### 🤖 hello
 <table>
@@ -31,16 +34,22 @@
 | LeetCode     | `LeetCode 2: Add Two Numbers (Python)` |
 | 문서 작성     | `docs: add/update/create [file name]`       |
 
-## 2. 문제별로 파일 생성 (md파일은 선택)
+## 2. 오답 정리, 개념 정리, 계획은 자유롭게
 
-## 3. 오답 정리, 개념 정리, 계획은 자유롭게
+## 3. 알고리즘 코드 리뷰
 
-## 4. 알고리즘 코드 리뷰도 좋을 듯!
+## 4. 시간 정해서 실전처럼 문제 풀이
 
 <br> 
 
 #### 🌐 알고리즘 문제 참고 사이트
+* SWEA → 삼성 스타일, 시뮬레이션 + 조건이 복잡한 편, 문제를 읽고 "어떻게 접근하지?"를 떠올리는 아이디어 연습
+https://swexpertacademy.com/main/main.do
+* 백준 → 알고리즘 유형별로 정석적인 문제 기본기 다지기
 https://www.acmicpc.net/
+* solved -> 단계별로 백준 핵심 문제 풀기 좋음
 https://solved.ac/class?class=1
+* 프로그래머스 → 카카오 스타일, 조건 꼼꼼히 처리하는 빡구현 연습
 https://school.programmers.co.kr/
+* leetcode -> 자료구조/알고리즘 개념 패턴별 훈련하기 좋음, 외국계
 https://leetcode.com/
