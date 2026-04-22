@@ -25,7 +25,7 @@ jobs:
           echo "Moving files for $ACTOR to folder: $FOLDER"
           
           if [ -d "프로그래머스" ]; then
-            TARGET_DIR="algo_study/$FOLDER/PROG"
+            TARGET_DIR="Algo_study/$FOLDER/PROG"
             mkdir -p "$TARGET_DIR"
             cp -r 프로그래머스/* "$TARGET_DIR/"
             rm -rf 프로그래머스
