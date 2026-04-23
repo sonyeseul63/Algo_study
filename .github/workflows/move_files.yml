@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '프로그래머스/**'
+      - 'SWEA/**'
 
 jobs:
   move-files:
@@ -24,11 +25,20 @@ jobs:
           
           echo "Moving files for $ACTOR to folder: $FOLDER"
           
+          # 프로그래머스
           if [ -d "프로그래머스" ]; then
             TARGET_DIR="$FOLDER/PROG"
             mkdir -p "$TARGET_DIR"
             cp -r 프로그래머스/* "$TARGET_DIR/"
             rm -rf 프로그래머스
+          fi
+
+          # SWEA 추가
+          if [ -d "SWEA" ]; then
+            TARGET_DIR="$FOLDER/SWEA"
+            mkdir -p "$TARGET_DIR"
+            cp -r SWEA/* "$TARGET_DIR/"
+            rm -rf SWEA
           fi
 
       - name: Commit and Push changes
