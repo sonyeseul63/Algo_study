@@ -1,9 +1,10 @@
+package ysson.SWEA.D2;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.io.IOException;
 
-public class Main {
+public class S25052 {
     static int T;
     static int N;
     static int[][] arr;
