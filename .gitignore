@@ -1,16 +1,16 @@
-# Java
+# Java 컴파일 및 빌드 산출물
 *.class
 *.jar
 
-# Python
+# Python 캐시 및 바이트코드
 __pycache__/
 *.pyc
 *.pyo
 
-# OS
+# OS 자동 생성 파일
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE 개인 설정
 .vscode/
 .idea/
