@@ -1,67 +1,100 @@
-# < Algo_study >
-### 📜 파일 실행 단축키
-#### md: Markdown Preview Enhanced 확장 설치 후 Ctrl + Shift + V 누르면 미리보기
-#### Python: Python 확장 설치하면 Run ▶️ 버튼 생김
-#### Java: "Extension Pack for Java" 설치하면 자동 빌드 + 실행 가능
+# Algorithm Study
 
-### 📜 파일 구조
-#### ALGO_STUDY/이름/문제 사이트/번호/소스코드 파일
-<br>
+알고리즘 및 코딩테스트 문제 풀이를 기록하고 관리하는 공동 저장소입니다.
 
-# < study-members >
-### 🤖 hello
-<table>
- <tr>
-  <td align="center"><a href="https://github.com/sonyeseul63"><img src="https://avatars.githubusercontent.com/sonyeseul63" width="130px;" alt=""></a></td>
-  <td align="center"><a href="https://github.com/Hanminjoo72"><img src="https://avatars.githubusercontent.com/Hanminjoo72" width="130px;" alt=""></a></td>
-  </tr>
-  <tr>
-     <td align="center"><a href="https://github.com/sonyeseul63"><b>예슬</b></a></td>
-    <td align="center"><a href="https://github.com/Hanminjoo72"><b>민주</b></a></td>
-  </tr>
-  <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-        <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-  </tr> 
-</table>
+백준, 프로그래머스, SWEA, LeetCode의 풀이를 **GitHub 계정별로 분리하여 관리**하며, 브라우저 확장 프로그램을 통해 정답 코드를 자동으로 업로드합니다.
 
-<br>
+## Members
 
-# < study-rules >
-### 1. 커밋 메시지 규칙 지키기
-| 플랫폼    | 커밋 메시지 예시                              |
-| ------ | -------------------------------------- |
-| 백준     | `BOJ 1920: 수 찾기 (Python)`              |
-| 프로그래머스 | `Programmers Lv1: 두 정수의 합 (Java)`      |
-| solved    | `solved 1000: A+B (Java)`         |
-| LeetCode     | `LeetCode 2: Add Two Numbers (Python)` |
-| 문서 작성     | `docs: add/update/create [file name]`       |
+| 이름 | GitHub | Language |
+| --- | --- | --- |
+| 예슬 | [@sonyeseul63](https://github.com/sonyeseul63) | Java, Python |
+| 민주 | [@Hanminjoo72](https://github.com/Hanminjoo72) | Python |
 
-### 2. 오답 정리, 개념 정리, 계획은 자유롭게
+## Repository Structure
 
-### 3. 알고리즘 코드 리뷰
+```text
+ALGO_STUDY/
+├── sonyeseul63/
+│   ├── BOJ/
+│   ├── PROG/
+│   ├── SWEA/
+│   └── LeetCode/
+│
+├── Hanminjoo72/
+│
+└── README.md
+```
 
-### 4. 시간 정해서 실전처럼 문제 풀이
+- 최상위 디렉터리는 각 팀원의 **GitHub 사용자명**을 사용합니다.
+- 플랫폼별로 문제 풀이를 분류하며, 하위 경로는 난이도와 문제 번호를 기준으로 구성합니다.
+- 문제별 디렉터리에 소스 코드와 필요한 풀이 문서를 저장합니다.
 
-<br> 
+## Getting Started
 
-# < study-site >
-### 🌐 SWEA 
-*  삼성 스타일, 시뮬레이션 + 조건이 복잡한 편, 문제를 읽고 "어떻게 접근하지?"를 떠올리는 아이디어 연습
-* https://swexpertacademy.com/main/main.do
+### 1. Repository Access
 
-### 🌐 백준 
-* 알고리즘 유형별로 정석적인 문제 기본기 다지기
-* https://www.acmicpc.net/
+본 저장소는 GitHub Collaborator 권한을 기반으로 공동 관리합니다.
+모든 문제 풀이는 각자의 GitHub 사용자명 디렉터리에 저장합니다.
 
-### 🌐 solved
- * 단계별로 백준 핵심 문제 풀기 좋음
-* https://solved.ac/class?class=1
+- Main Repository: sonyeseul63/ALGO_STUDY
 
-### 🌐 프로그래머스
-* 카카오 스타일, 조건 꼼꼼히 처리하는 빡구현 연습
-* https://school.programmers.co.kr/
+### 2. Automatic Upload
 
-### 🌐 leetcode
-* 자료구조/알고리즘 개념 패턴별 훈련하기 좋음, 외국계
-* https://leetcode.com/
+| Platform | Extension | Directory |
+| --- | --- | --- |
+| [Baekjoon](https://www.acmicpc.net/) | [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) | `BOJ/` |
+| [Programmers](https://school.programmers.co.kr/) | [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) | `PROG/` |
+| [SWEA](https://swexpertacademy.com/main/main.do) | [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) | `SWEA/` |
+| [LeetCode](https://leetcode.com/) | [LeetHub-Neo](https://github.com/legojeon/LeetHub-Neo) | `LeetCode/` |
+
+#### BaekjoonHub
+
+확장 프로그램에서 GitHub 저장소를 연결한 뒤 **Directory Path Template**을 설정합니다.
+
+`<GITHUB_ID>`를 자신의 GitHub 사용자명으로 변경합니다.
+
+| Platform | Directory Path Template |
+| --- | --- |
+| Baekjoon | `<GITHUB_ID>/BOJ/${level}/${id}. ${title}` |
+| Programmers | `<GITHUB_ID>/PROG/${level}/${id}. ${title}` |
+| SWEA | `<GITHUB_ID>/SWEA/${level}/${id}. ${title}` |
+
+설정 저장 후 정답을 제출하여 생성된 GitHub 경로를 확인합니다. SWEA는 업로드 버튼을 통한 수동 동기화가 필요할 수도 있습니다.
+
+#### LeetHub-Neo
+
+GitHub 저장소 연결 후 **Sync Folder**를 다음과 같이 설정합니다.
+
+```text
+<GITHUB_ID>/LeetCode
+```
+
+공유 저장소의 최상위 README가 변경되지 않도록 `Auto update root README` 옵션은 비활성화합니다.
+
+### 3. Manual Upload
+
+자동 업로드를 지원하지 않거나 로컬에서 직접 작성한 풀이도 자신의 디렉터리에 추가할 수 있습니다.
+
+```text
+<GITHUB_ID>/<PLATFORM>/<PROBLEM>/
+```
+
+수동 업로드 시 다른 팀원의 변경 사항을 먼저 동기화한 후 커밋합니다.
+
+```bash
+git pull --rebase origin main
+git add .
+git commit -m "docs: add solution notes"
+git push origin main
+```
+
+## Repository Guidelines
+
+- **Directory ownership:** 모든 문제 풀이는 자신의 GitHub 사용자명 디렉터리에 저장합니다.
+- **Naming:** 자동 생성된 문제 번호 및 제목 기반 디렉터리 구조를 유지합니다.
+- **Commit:** 자동 업로드의 커밋 메시지는 확장 프로그램 기본 형식을 따릅니다. 수동 커밋은 변경 내용을 명확하게 작성합니다.
+- **Documentation:** 오답 분석, 접근 방식, 시간·공간 복잡도 등의 학습 기록은 필요에 따라 추가합니다.
+- **Collaboration:** 공통 설정이나 최상위 README 변경은 다른 팀원에게 영향을 주지 않도록 사전에 확인합니다.
+
+문제 풀이 업로드는 확장 프로그램에서 처리하며, 파일 이동을 위한 GitHub Actions는 사용하지 않습니다.
