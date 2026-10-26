@@ -1,4 +1,4 @@
-package ysson.SWEA.모의sw역량테스트;
+package sonyeseul63.SWEA.모의sw역량테스트;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

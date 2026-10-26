@@ -1,4 +1,4 @@
-package ysson.SWEA.D1;
+package sonyeseul63.SWEA.D1;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

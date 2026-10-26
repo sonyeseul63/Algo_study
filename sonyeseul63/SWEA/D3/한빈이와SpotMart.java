@@ -1,4 +1,4 @@
-package ysson.SWEA.D3;
+package sonyeseul63.SWEA.D3;
 import java.io.*;
 import java.util.*;
 public class 한빈이와SpotMart {
