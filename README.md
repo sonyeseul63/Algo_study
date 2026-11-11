@@ -62,7 +62,7 @@ ALGO_STUDY/
 
 설정 저장 후 정답을 제출하여 생성된 GitHub 경로를 확인합니다. SWEA는 업로드 버튼을 통한 수동 동기화가 필요할 수도 있습니다.
 
-- 현재(2026/11/11) 기준, 백준 허브 오류로 정답 코드 제출 후 약 3초 후에 모달을 닫아야 커밋됨.(https://github.com/BaekjoonHub/BaekjoonHub/pull/352)
+- 현재(2026/11/11) 기준, 백준 허브 오류로 SWEA에서 정답 코드 제출 후 약 3초 후에 모달을 닫아야 커밋됨.(https://github.com/BaekjoonHub/BaekjoonHub/pull/352)
 
 #### LeetHub-Neo
 
