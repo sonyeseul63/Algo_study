@@ -1,44 +1,35 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+
+import java.io.*;
+import java.util.*;
 
 public class Solution {
-	static int d, m, t, y;
-	static int[] plan, dp;
-	
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		for(int testcase = 1; testcase <= T; testcase++) {
-			StringTokenizer st= new StringTokenizer(br.readLine());
-			d = Integer.parseInt(st.nextToken());
-			m = Integer.parseInt(st.nextToken());
-			t = Integer.parseInt(st.nextToken());
-			y = Integer.parseInt(st.nextToken());
-			
-			st = new StringTokenizer(br.readLine());
-			plan = new int[13];
-			dp = new int[13];
-			for(int i = 1 ; i<= 12; i++) {
-				plan[i] = Integer.parseInt(st.nextToken());
-			
-				// d일때 
-				int fee = plan[i] * d;
-				
-				// m 일때
-				fee = Math.min(fee, m);
-				
-				dp[i] = dp[i-1] + fee;
-				
-				// 3m 일때 : 3개월까지의 누적값
-				if(i >=3 ) {
-					// 비교대상
-					dp[i] = Math.min(t + dp[i-3], dp[i]);
-				}
-			}
-			int answer = Math.min(y, dp[12]);
-			System.out.println("#" + testcase + " " + answer);
-		}
-	}
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int T = Integer.parseInt(br.readLine());
+        for(int testcase = 1; testcase <=T; testcase++){
+            int[] fees = new int[4];
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for(int i = 0; i<4; i++){
+                fees[i] = Integer.parseInt(st.nextToken());
+            }
+            st = new StringTokenizer(br.readLine());
+            // 누적 최소 값
+            int dp[] = new int[13];
+
+            for(int i = 1; i<=12; i++){
+                int day = Integer.parseInt(st.nextToken());
+
+                dp[i] = Math.min(day*fees[0], fees[1]) + dp[i-1];
+
+                if(i < 3) continue;
+
+                dp[i] = Math.min(dp[i], dp[i-3]+fees[2]);
+
+                if(i<12) continue;
+
+                dp[i] = Math.min(dp[i], fees[3]);
+            }
+            System.out.println("#" + testcase + " " + dp[12]);
+        }
+    }
 }
