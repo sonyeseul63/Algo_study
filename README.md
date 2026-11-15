@@ -9,6 +9,7 @@
 | 이름 | GitHub | Language |
 | --- | --- | --- |
 | 예슬 | [@sonyeseul63](https://github.com/sonyeseul63) | Java, Python |
+| 가린 | [@Gwakgarin](https://github.com/Gwakgarin) | Python |
 | 민주 | [@Hanminjoo72](https://github.com/Hanminjoo72) | Python |
 
 ## Repository Structure
@@ -20,7 +21,7 @@ ALGO_STUDY/
 │   ├── PROG/
 │   ├── SWEA/
 │   └── LeetCode/
-│
+├── Gwakgarin/
 ├── Hanminjoo72/
 │
 └── README.md
